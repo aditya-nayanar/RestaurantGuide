@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B0BFDC">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="153dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="32dp"
+        android:text="How do ratings work?"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="258dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="5dp"
+        android:text="If they're all good why don't they all get 5 stars? Well, you're right and wrong with that statement. Yes they are all good and you can be sure that no matter which one you choose, you will have an amazing experience. However, this ratings goes further to give you a better idea of value for money and environment."
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Why these two attributes?"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="258dp"
+        android:layout_height="228dp"
+        android:layout_marginTop="5dp"
+        android:text="There's often an inverse relationship between a restaurant's value for money and environment. Those that provide stunning views and a luxury atmosphere might decrease that value you get per dollar spent on food. Arguably, the environment is something you must accept is included in the price but what about that place that combines an environment thats enjoyable with great tasting food? Well, this rating system will give you a good idea of how close the place comes to achieving that!"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="201dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:text="Tap anywhere outside this box to exit!"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView9"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+</androidx.constraintlayout.widget.ConstraintLayout>
